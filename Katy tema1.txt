@@ -1,0 +1,45 @@
+  Test case 1 
+
+Summary: Utilizatorul se poate loga pe site.
+Descriere: Utilizatorul se poate loga pe site.
+Prioritate: Inalta 
+Tipul testarii: UI, Usability, security, Positive.
+Statut de automatizare: Nu
+Pre-conditii: 
+Dispozitiv conectat la reteaua alimentara sau pe baterii,
+Sistem de operare
+Browser
+Dispozitivul sa fie conectat la sursa de internet.
+
+Mediul de testare: www.utest.com, setat in limba engleza.
+Pasii de testare: 
+
+Porneste dispozitivul 
+Deschide browser-ul
+Tapeaza in bara de cautare textul "www.utest.com"
+Apasa tasta "Enter"
+Da click pe butonul "Join Now"
+Completeaza campurile obligatorii 
+Da click pe butonul "Nex:Location"
+Completeaza campul "Zip or Postal Code " 
+Da click pe butonul "Next:Devices"
+Completeaza campul "Your Mobile Device"
+Completeaza campul "Model"
+Completeaza campul "Operating System"
+Da click pe butonul "Next: Last Step"
+Completeaza campul "Create your uTest password"
+Apoi confirma parola in campul "Confirm password"
+Bifeaza optiunea "I have read and accept the uTest Terms od Use and the uTest Guidelines"
+Bifeaza optiunea "I have read and accept the Privacy & Security Policy"
+Da click pe butonul " Complete Setup"
+
+Datele de test:
+www.utest.com, in calitate de adresa de productie 
+
+Rezultatul asteptat:  Utilizatorul poate sa se logeze pe site. 
+Rezultatul actual: Utilizatorul poate sa se logeze pe site .
+Atasament: screenshot.jpg
+Statut de executare: Passed
+NameQA: P.Catalina
+Data&Time:  04.10.2025 20:17
+
