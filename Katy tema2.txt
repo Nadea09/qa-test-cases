@@ -1,0 +1,35 @@
+ Test case 2
+
+Summary: Utilizatorul isi poate sterge contul de pe site. 
+Prioritate: Medium
+Tipul testarii: UI, Usability, Security, Pozitive.
+Statut de automatizare: Nu
+Pre-conditii:
+Dispozitiv conectat la reteaua alimentara sau pe baterii
+Sistem de operare
+Browser
+Utilizator existent si logat
+Dispozitiv conectat la internet
+
+Mediul de testare: www.utest.com, setat in limba engleza 
+Pasii de testare:
+Porneste dispozitivul 
+Deschide browser-ul
+Tapeaza in bara de cautare textul "www.utest.com"
+Da click pe pictograma de "sageata in jos"
+Alege optiunea de "Advanced Settings"
+Localizeaza linkul "Close my account" finalul paginii si da click pe el
+Da click pe butonul rosu "Close account"
+Da click pe butonul "Ok"
+
+Datele de test: 
+www.utest.com, in calitate de adresa de productie.
+
+Rezultatul asteptat: Utilizatorul isi poate sterge contul de pe site.
+Rezultatul actual: Utilizatorul isi poate sterge contul de pe site.
+
+Atasament: screenshot.jpg
+
+Statut de executare: Passed
+NameQA: P.Catalina
+Data&Time: 04.10.2025 21:14
