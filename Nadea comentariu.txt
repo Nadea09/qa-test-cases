@@ -1,0 +1,46 @@
+Titlu: Utilizatorul poate plasa un comentariu
+
+Descriere: Utilizatorul logat poate plasa un comentariu
+
+Priotitate: Medie
+
+Tipul testarii: Positive, UI, Usability
+
+Statut de automatizare:NU
+
+Pre-conditii:
+-Dispozitiv
+-Retea de internet
+-Sistem de operare
+-Browser
+-Utilizator logat
+
+Mediu de testare: www.utest.com setat in limba engleza
+
+Pasii de testare:
+1. Porneste dispozitivul
+2.Conecteazate la internet
+3.Deschide browserul
+4.Tapeaza in bara de cautare"www.utest.com"
+5.Apasa Enter
+6.Selecteaza optiunea "Community"
+7.Localizeaza o postare din sectiunea "Feed"
+8.Da click pe "Add Comment"
+9.Tapeaza textul "Wow!"
+10.Da click pe butonul "Post"
+
+Date de testare:
+-"www.utest.com" in calitate de adresa de productie
+-"Wow!" in calitate de comentariu
+
+Rezultatul asteptat:Utilizatorul poate plasa un comentariu
+
+Rezultatul actual: Utilizatorul poate plasa un comentariu
+
+Atasament: 1.jpg
+
+Statu de executare:Passed
+
+NumeQA:Mamaliga Nadea
+Data:04.10.2025
+Ora:18:23
