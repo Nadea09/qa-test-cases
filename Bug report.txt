@@ -1,0 +1,39 @@
+BUG REPORT
+
+Summary:Adresa de email nu se schimba.
+
+Descriere: Adresa de email nu se schimba chiar saca se fac modificari in body.
+
+Pre-conditii:
+-Dispozitiv desktop conectat la reteaua alimentara pe baterii
+-Sistem de operare
+-Browser
+-Dispozitiv conectat la internet
+-Participant existent 
+-Postman instalat
+
+Mediul de testare: https://dummyapi.io/data/v1/user/68e22e17299b6c64e7d5894a, setat in limba engleza.
+
+Pasii de reproducere:
+1. Pornesti dispozitivul desktop
+2. Deschide aplicatia Postman
+3. Selecteaza optiunea "PUT"
+4. Tapeaza textul "https://dummyapi.io/data/v1/user/68e22e17299b6c64e7d5894a" in calitate de request URL
+5. Tapeaza "app-id" si valoarea "62dac3815b42217c2816e6fa" in sectiunea headers
+6. Actualizeaza email-ul din sectiunea body 
+7. Da click pe butonul "Send"
+
+Rezultatul asteptat: Adresa de email se schimba.
+
+Rezultatul actual: Adresa de email nu se schimba.
+
+Incercari de repetare:0
+
+NameQA: P.Catalina
+
+Data&Time: 05.10.2025 12:09
+
+Severitatea: Critical
+ 
+Prioritatea : Medie. 
+
