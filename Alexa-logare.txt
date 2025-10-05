@@ -1,0 +1,54 @@
+Utilizatorul se poate loga pe uTest
+
+
+Descriere: Verificare logare utilizator pe uTest
+
+Prioritate: mediu
+
+Test case: UI, Usability, Functional, Security
+
+Statut de automatizare: manual
+
+
+Preconditii:
+
+-dispozitiv conectat la reteaua de alimentare sau baterie
+-sistem de operare
+-conectat la reteaua de internet
+-browser-ul
+-utilizatorul are un cont valid (email/parolă corectă).
+
+
+Mediu de testare: https://www.utest.com setat in limba engleza
+
+
+Pasii de testare:
+
+1. Porneste dispozitivul desktop 
+2. Deschide browser-ul
+3. Tapeaza textul “https://www.utest.com/” in bara de cautare
+4. Apasa tasta "Enter"
+5. Da click pe butonul "Log In"
+6. Introdu un email valid în campul “E-mail Address:" 
+7. Da click pe campul “Password:"
+8. Introdu parola validă în câmpul „Enter your password”
+9. Da click pe butonul “Sing in“
+
+
+Datele de test: 
+
+-E-mail: ….@gmail.com 
+-Parola: .....
+
+
+Rezultatul asteptat: Utilizatorul este logat cu succes pe uTest
+
+Rezultatul actual: Utilizatorul este logat cu succes pe uTest
+
+Atasament: exemplu.jpg
+
+Statutul de executare: PASSED
+
+Numele la QA: Scutaru Alexandrina
+
+Data si ora: 04 octombrie, 20:35

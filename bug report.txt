@@ -1,0 +1,36 @@
+Utilizatorul nu poate actualiza adresa de email
+
+
+
+Descriere: Utilizatorul nu poate actualiza adresa de email utilizand postman
+
+
+Pre-conditii
+- Dispozitiv desktop
+- Retea de internet
+- Sistem de operare
+- Postman istalat
+- Participant existent
+
+Mediu de testare: "https://dummyapi.io/data/v1/user/68e22e91299b6c464bd58a0f?app-id=62dac3815b42217c2816e6fa setat in limba engleza"
+
+
+Pasii de reproducere: app-id in sectiunea Headears
+1. Porneste dispozitivul
+2. Conecteaza la internet
+3. Deschide Postman
+4. Tapeaza in bara de cautare "https://dummyapi.io/data/v1/user/68e22e91299b6c464bd58a0f?app-id=62dac3815b42217c2816e6fa" in calitate de request URL
+5. Selecteaza metoda "Put"
+6. Tapeaza app-id "62dac3815b42217c2816e6fa" in sectiunea Headers
+7. Actualizeaza emailul din sectiunea Body
+8. Da click pe butonul "Send"
+
+Rezultatul asteptat: Utilizatorul nu poate actualiza adresa de email
+Rezultatul asctual: Utilizatorul nu poate actualiza adresa de email
+
+Incercari de repetare: 0
+Nume QA: Grosu Olga
+Data si ora: 05.10.2025  12.10
+
+Severitate: Critical
+Prioritate: Medium
