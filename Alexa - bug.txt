@@ -1,0 +1,52 @@
+Utilizatorul nu poate actualiza adresa de email
+
+Descriere: Utilizatorul nu poate actualiza adresa de email
+
+Prioritate: Inalta
+
+Test case: UI, Usability
+
+
+
+Preconditii:
+
+-dispozitiv desktop conectat la reteaua de alimentare sau baterie
+-sistem de operare
+-conectat la reteaua de internet
+-postman instalat
+-paricipant existent
+
+
+
+Mediu de testare: https://www.postman.com/downloads/  setat in limba engleza
+
+Pasii de testare:
+1. Porneste dispozitivul
+2. Deschide postman
+3. Da click pe butonul "GET"
+4. Selectează metoda "PUT"
+5. Tapeaza textul “https://dummyapi.io/data/v1/user/” in calitate de request URL
+6. Apasa tasta "Send"
+7. Tapează in secțiunea "Headers" "app-id" la "Key" și la "Value" "62dac3815b42217c2816e6fa"
+8. Actualizează mail in secțiunea "Body"
+9. Da click pe butonul "Send"
+
+
+
+Rezultatul asteptat: Utilizatorul poate schimba e-mailul
+
+Rezultatul actual: Utilizatorul nu poate schimba e-mailul
+
+Atasament: exemplu.jpg
+
+Statutul de executare: FAILED
+
+Incercari de repetare: 0
+
+Severitatea: Critical
+
+Numele la QA: Scutaru Alexandrina
+
+Programator: ...
+
+Data si ora: 03 octombrie, 11:55
