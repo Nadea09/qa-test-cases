@@ -1,0 +1,40 @@
+Titlu:Adresa de email nu poate fi schimbata
+
+Descriere:Adresa de email nu poate fi schimbata
+
+Pre-conditii:
+-Dispozitiv desktop conectat la reteaua alimentara sau pe baterie
+-Retea de internet
+-Sistem de operare
+-Postman Instalat
+-Participant existent
+
+Mediu de testare: https://dummyapi.io/data/v1/user/68e22fd4299b6c826cd58ac0?app-id=62dac3815b42217c2816e6fa setat in limba engleza
+
+Pasii de reproducere:
+1.Porneste desktop-ul
+2.Conecteazate la internet
+3.Deschide Postman
+4.Selecteaza optiunea "PUT"
+5.Tapeaza in "PUT" URL-ul "https://dummyapi.io/data/v1/user/68e22fd4299b6c826cd58ac0?app-id=62dac3815b42217c2816e6fa"
+6.Da click pe "Headers"
+7. Tapeaza"app-id" in sectiunea"Key"
+8.Tapeaza "62dac3815b42217c2816e6fa" in sectiunea"Value"
+9.Da click pe "Body"
+10.Actualizeaza email-ul
+11.Da click pe butonul "Send"
+
+Rezultatul asteptat: Adresa de email se poate schimba
+
+Rezultatul actual:Adresa de email nu se paote schimba
+
+Atasament:1.jpg
+
+Incercari de repetare:0
+
+NumeQA:Mamaliga Nadea
+Data:05.10.2025
+Ora:12:09
+
+Severitate:Critica
+Prioritate:Medie
