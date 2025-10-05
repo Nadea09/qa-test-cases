@@ -1,0 +1,49 @@
+Descriere: Utilizatorul nu poate actualiza adresa de email. 
+
+Prioritate: Scazuta
+
+Tipul testarii: Usability, UI, Pozitiv
+
+Statut automatizat: Nu
+
+
+
+Pre-conditii:
+
+ Dispozitiv: Desktop
+
+ Dispozitiv conectat la internet
+
+ Sistem de operare
+
+ Browser
+ 
+Participant existent
+ 
+ Mediu de testare: https://dummyapi.io/data/v1/user/68e22ecb299b6c8336d58a54 - setat in limba engleza
+
+
+ Pasii de testare:
+
+1. Porneste dispozitivul.
+2. Conectazate la internet.
+3. Deschide postam.com.
+4. Selecteaza metoda PUT . 
+5. Tapeaza textul : https://dummyapi.io/data/v1/user/68e22ecb299b6c8336d58a54 in calitate de adresa API.
+6. Tapeaza in sectiunea Headers- app-id - 62dac3815b42217c2816e6fa.
+7. Actualizeaza email-ul din sectiunea Body. 
+8. Da click pe butonul send. 
+
+
+Rezultatul asteptat : Utilizatorul nu poate actualiza adresa de email.
+
+Rezultatul actual: Utilizatorul nu poate actualiza adresa de email.
+
+Statutul de executare: Passed
+
+Nume QA : Catan Erik
+  
+Data: 05.10.2025
+
+Ora: 12:11
+ 
