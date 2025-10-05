@@ -1,0 +1,50 @@
+Titlu:Utilizatorul se poate loga
+
+Descriere: Utilizatorul se poate loga
+
+Prioritate: Inalta
+
+Tipurile de testare: Positive, UI, Security
+
+Statu de automatizare: Nu
+
+Pre-conditii:
+1. Dispozitiv
+2. Retea de internet
+3. Sistem de operare
+4. Browser
+
+Mediu de testare: www.utest.com setat in limba engleza
+
+Pasii de testare:
+1. Porneste dispozitivul
+2. Conecteazate la internet
+3. Deschide browser-ul
+4. Tapeaza in bara de cautare "www.utest.com"
+5. Apasa tasta "Enter"
+6. Da click pe butonul"Join Now"
+7. Completeaza campurile obligatorii
+8. Da click pe butonul "Next:Location"
+9. Introdu codul postal"6812"
+10. Da click pe butonul "Next:Devices"
+11. Da click pe butonul "Next:Last Step"
+12. Tapeaza parola "Ywj-x8-SPJPxng%"
+13. Confirma parola "Ywj-x8-SPJPxng%"
+14. Da click pe optiunea "I have read and accept the uTest Terms of Use and the uTest Guidelines"
+15. Da click pe optiunea "I have read and accept the Privacy & Security Policy"
+16. Da click pe butonul "Complete Setup"
+
+Datele de testare:
+-www.utest.com in calitate de adresa de productie
+-"6812" in calitate de cod postal
+-"Ywj-x8-SPJPxng%" in caliate de parola
+
+Rezultatul asteptat: Utilizatorul se poate loga
+
+Rezultatul actual: Utilizatorul se poate loga
+
+Atasament: 1.jpg
+Statut de executare: Passed
+NumeQA:Mamaliga Nadea
+Data:04.10.2025
+Ora:18:03
